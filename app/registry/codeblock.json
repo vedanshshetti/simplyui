@@ -1,0 +1,11 @@
+{
+  "name": "codeblock",
+  "type": "components:ui",
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "@/app/components/codeblock.tsx",
+      "type": "registry:component"
+    }
+  ]
+}

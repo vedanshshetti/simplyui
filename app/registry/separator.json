@@ -1,0 +1,11 @@
+{
+  "name": "separator",
+  "type": "components:ui",
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "@/app/components/separator.tsx",
+      "type": "registry:component"
+    }
+  ]
+}
