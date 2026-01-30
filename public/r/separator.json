@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "separator",
+  "title": "Separator",
+  "description": "A simple separator component supporting dark mode.",
+  "files": [
+    {
+      "path": "./app/components/separator.tsx",
+      "content": "\ntype SeparatorProps={\n    length: \"50\" | \"75\" | \"80\" | \"90\";\n    className?: string\n}\n\nexport default function Separator({length, className}: SeparatorProps){\n    const safeC=className == undefined || className == null || className == \"\" ? \"\" : className;\n    return <div className={\"bg-slate-200 my-2 dark:bg-slate-900 h-1.5 rounded-md \"+`w-[${length}] `+safeC}></div>\n      \n}",
+      "type": "registry:component"
+    }
+  ],
+  "type": "registry:component"
+}
