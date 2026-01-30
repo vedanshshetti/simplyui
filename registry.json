@@ -1,0 +1,21 @@
+{
+  "name": "simplyui",
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://simplyui.vercel.app/",
+  "registry": [
+    {
+      "name": "codeblock",
+      "description": "A code block component supporting dark mode.",
+      "title" : "Code Block",
+      "type": "components:ui",
+      "files": ["codeblock/component.json"]
+    },
+    {
+      "name": "separator",
+      "description": "A simple separator component supporting dark mode.",
+      "title" : "Separator",
+      "type": "components:ui",
+      "files": ["separator/component.json"]
+    }
+  ]
+}

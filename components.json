@@ -1,0 +1,12 @@
+{
+  "components": [
+    {
+      "name": "codeblock",
+      "path": "app/components/codeblock.tsx"
+    },
+    {
+      "name": "separator",
+      "path": "app/components/separator.tsx"
+    }
+  ]
+}
