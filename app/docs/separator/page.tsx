@@ -11,7 +11,12 @@ export default function SeparatorDocsPage() {
           Supports light and dark mode automatically.
         </p>
       </section>
-
+       <section className="space-y-4">
+              <h2 className="text-xl font-semibold">Installation</h2>
+              <CodeBlock className="block w-fit">
+                npx shadcn add separator --registry https://simplyui.vercel.app/r/registry.json
+              </CodeBlock>
+            </section>
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">Import</h2>
         <CodeBlock className="block w-fit">

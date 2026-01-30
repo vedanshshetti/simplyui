@@ -10,7 +10,12 @@ export default function CodeBlockDocsPage() {
           Supports light and dark mode automatically.
         </p>
       </section>
-
+      <section className="space-y-4">
+        <h2 className="text-xl font-semibold">Installation</h2>
+        <CodeBlock className="block w-fit">
+          npx shadcn add codeblock --registry https://simplyui.vercel.app/r/registry.json
+        </CodeBlock>
+      </section>
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">Import</h2>
         <CodeBlock className="block w-fit">
