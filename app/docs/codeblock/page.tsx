@@ -18,7 +18,7 @@ export default function CodeBlockDocsPage() {
       </section>
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">Import</h2>
-        <CodeBlock className="block w-fit">
+        <CodeBlock className="w-fit">
           import CodeBlock from "@/app/components/codeblock"
         </CodeBlock>
       </section>
@@ -33,7 +33,7 @@ export default function CodeBlockDocsPage() {
 
         <div className="space-y-2">
           <p>With custom classes:</p>
-          <CodeBlock className="text-red-500">
+          <CodeBlock className="text-red-500 w-fit">
             console.log("Hello")
           </CodeBlock>
         </div>
