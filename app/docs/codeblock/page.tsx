@@ -64,26 +64,13 @@ export default function CodeBlockDocsPage() {
         <h2 className="text-xl font-semibold">Component</h2>
 
         <CodeBlock className="block whitespace-pre-wrap">
-{`import * as React from "react";
+{`
+import * as React from "react"; ${<br/>}
 
-export default function CodeBlock({
-  children,
-  className,
-}: {
-  children: React.ReactNode
-  className?: string
-}) {
-  return (
-    <span
-      className={
-        "text-center font-semibold font-mono bg-slate-100 dark:bg-slate-800 p-1.5 rounded-md " +
-        className
-      }
-    >
-      {children}
-    </span>
-  )
-}`}
+export default function CodeBlock({children, className}: {children: React.ReactNode, className?: string}){ ${<br/>}
+    return  <pre className={"text-center m-2 font-semibold font-mono bg-slate-100 dark:bg-slate-800 p-1.5 rounded-md "+className}>{children}</pre> ${<br/>}
+} ${<br/>}
+`}
         </CodeBlock>
       </section>
     </div>

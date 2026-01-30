@@ -1,5 +1,6 @@
 import CodeBlock from "../components/codeblock";
 import Separator from "../components/separator";
+import Link from "next/link";
 
 
 export default function Page(){
@@ -10,8 +11,13 @@ export default function Page(){
         Separators, you'll find almost anything here!
        </p>
        <Separator length="80"></Separator>
-       <section>
-
+       <section className="grid gap-2.5 grid-cols-4 sm:grid-cols-1 md:grid-cols-2">
+            <div className="p-2.5 rounded-md border border-slate-200 dark:border-slate-900">
+                <Link href="/docs/codeblock">Codeblock</Link>
+            </div>
+             <div className="p-2.5 rounded-md border border-slate-200 dark:border-slate-900">
+                <Link href="/docs/separator">Separator</Link>
+            </div>
        </section>
     </div>
 }
